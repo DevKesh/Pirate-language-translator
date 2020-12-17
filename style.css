@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+
+.nav-bar {
+  text-align: center;
+  -webkit-text-stroke: 0.01px rgba(8, 8, 8, 0.137);
+  padding: 3rem 3rem ;
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  background-image: url('images/pirate\ image.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+   margin: 0%;
+  font-family: 'Pirata One', cursive;
+}
+
+h2 {
+  margin: 0px 0px;
+}
+h3{
+  font-weight: bolder;
+  font-size: 2rem;
+  
+}
+
+.header-bar {
+  color: rgba(24, 231, 58, 0.26);
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 1rem;
+  padding-right: 1rem;
+}
+
+
+.translator {
+  text-align: center;
+  
+}
+
+textarea {
+  text-align: center;
+  width: 32%;
+  height: 8vh;
+  display: block;
+  margin: 3.5rem;
+  padding: 3rem;
+  margin-right: auto;
+  margin-left: auto;
+  border: 4px solid rgba(3, 61, 14, 0.685);
+  border-radius: 20px;
+  font-family: 'Pirata One', cursive;
+  font-size: 1.2rem;
+  
+
+}
+button {
+  margin: 0.5rem;
+  border-radius: 10px;
+  font-family: 'Pirata One', cursive;
+}
+
+#output {
+  background-color: white;
+  border: 4px solid rgba(3, 61, 14, 0.685);
+  border-radius: 20px;
+  width: 32%;
+  height: 12vh;
+  display: block;
+  margin: 1rem;
+  padding: 2rem;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 1.5rem;
+
+}
+
+.button-size{
+  font-size: 1.2rem;
+  height: 2.5rem;
+}
+
+#button-translate {
+  background-color: rgb(255, 255, 255);
+  color: rgb(17, 16, 16);
+  font-family: 'Pirata One', cursive;
+  font-size: larger;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+#button-translate:hover{
+    background-color: #1441038e;
+    color:rgba(12, 12, 11, 0.897);
+}
+
+#button-translate:active{
+  transform: translate(0, 0.3rem);
+  box-shadow: 0 0.1rem rgba(24, 231, 58, 0.26);
+}
+
+.normal-text {
+    font-size: 1.3rem;
+  color: rgba(8, 8, 8, 2.137);
+
+    
+}
+.about-text{
+    color: rgba(238, 238, 238, 1.876);
+    font-size: 1.3rem;
+}
+
+@media (max-width:600px){
+
+  body{
+    background-image: url('images/pirate\ image.jpg');
+    width: 100%;
+  }
+}
